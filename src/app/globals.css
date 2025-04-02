@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 215 27% 22%;
+    --card: 0 0% 100%;
+    --card-foreground: 215 27% 22%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 27% 22%;
+    --primary: 215 27% 22%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 210 6% 10%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 97%;
+    --muted-foreground: 215 7% 65%;
+    --accent: 226 78% 59%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 358 76% 53%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 215 27% 22%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 215 27% 22%;
+    --foreground: 0 0% 98%;
+    --card: 215 27% 22%;
+    --card-foreground: 0 0% 98%;
+    --popover: 215 27% 22%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 215 27% 22%;
+    --secondary: 210 6% 10%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 210 6% 10%;
+    --muted-foreground: 215 7% 65%;
+    --accent: 226 78% 59%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 358 76% 53%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 210 6% 10%;
+    --input: 210 6% 10%;
+    --ring: 0 0% 98%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-plus-jakarta-sans), sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-montserrat), sans-serif;
+    font-weight: 700;
+  }
+}
+
+@layer components {
+  .container-imenso {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-imenso-red text-white font-medium py-2 px-6 rounded-md hover:bg-opacity-90 transition-all;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold text-imenso-blue mb-4;
+  }
+
+  .section-subtitle {
+    @apply text-lg md:text-xl text-imenso-gray mb-8 max-w-3xl mx-auto;
+  }
+}

@@ -16,7 +16,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Digital Transformation Services | MyEma",
+  title: "MyEma | Digital Transformation",
   description: "We are a full stack technology consulting agency specializing in web & mobile application development, Data Analytics, Cloud and DevOps and Designing Services.",
 };
 

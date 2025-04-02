@@ -69,9 +69,9 @@ const Footer = () => {
 
   const socialLinks = [
     { icon: <Linkedin className="w-5 h-5" />, href: "https://www.linkedin.com/company/myema-ao/" },
-    { icon: <Facebook className="w-5 h-5" />, href: "https://www.facebook.com/imensosoftware/" },
-    { icon: <Twitter className="w-5 h-5" />, href: "https://twitter.com/imensosoftware" },
-    { icon: <Instagram className="w-5 h-5" />, href: "https://www.instagram.com/imensosoftware/" },
+    { icon: <Facebook className="w-5 h-5" />, href: "https://www.facebook.com/myema/" },
+    { icon: <Twitter className="w-5 h-5" />, href: "https://twitter.com/myema" },
+    { icon: <Instagram className="w-5 h-5" />, href: "https://www.instagram.com/myema.ao/" },
   ];
 
   return (

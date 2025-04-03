@@ -69,7 +69,6 @@ const Projects = () => {
                     <li key={idx} className="text-sm text-imenso-gray">• {feature}</li>
                   ))}
                 </ul>
-                
               </div>
             </div>
           ))}

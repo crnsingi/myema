@@ -11,18 +11,12 @@ const Footer = () => {
       title: "Services",
       links: [
         { name: "Web Development", href: "/services/web-development" },
-        { name: "UI/UX Design", href: "/services/ux-ui-design" },
-        { name: "Software Testing", href: "/services/software-testing-company" },
-        { name: "Mobile App Development", href: "/services/mobile-apps" },
-        { name: "Cloud & DevOps", href: "/services/cloud-and-devops" },
-        { name: "Support and Maintenance", href: "/services/application-maintenance-support" },
       ],
     },
     {
       title: "Technologies",
       links: [
         { name: "Backend", href: "#" },
-        { name: "NodeJS Development", href: "/technologies/node-js-development-company" },
       ],
     },
     {
@@ -35,15 +29,12 @@ const Footer = () => {
       title: "Frontend",
       links: [
         { name: "React JS Development", href: "/technologies/react-js-development-company" },
-        { name: "Angular JS Development", href: "/technologies/angular-js-development-company" },
       ],
     },
     {
       title: "Mobile Apps",
       links: [
         { name: "React Native Development", href: "/technologies/react-native-development-company" },
-        { name: "Android App Development", href: "/technologies/android-development-company" },
-        { name: "iOS App Development", href: "/technologies/ios-development-company" },
       ],
     },
   ];
@@ -54,7 +45,6 @@ const Footer = () => {
       title: "Full Stack Developers",
       links: [
         { name: "MEAN Stack Developers", href: "/developers/hire-mean-stack-developers" },
-        { name: "MERN Stack Developers", href: "/developers/hire-mern-stack-developers" },
       ],
     },
   ];

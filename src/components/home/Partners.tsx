@@ -18,6 +18,11 @@ const Partners = () => {
       logo: "https://media.licdn.com/dms/image/v2/C4D0BAQGOvzgjgXwKkA/company-logo_200_200/company-logo_200_200/0/1668971278108?e=1749081600&v=beta&t=3ewktvZS33lA6NwcFTbq3ajJd2x51n4TVnCsavngMHo"
 
     },
+    {
+      name:"DeltaCorp",
+      logo: "https://media.licdn.com/dms/image/v2/C4E0BAQHi9b0MtZPpiA/company-logo_200_200/company-logo_200_200/0/1642350969205?e=1749081600&v=beta&t=mh_cuyGS_WYvu_Kr7rql2-jDNYqXtpJOYkg4_0tpYhQ"
+
+    },
   
   ];
 
@@ -48,7 +53,7 @@ const Partners = () => {
 
         <div className="text-center mt-12">
           <div className="flex justify-center items-center space-x-2">
-            <span className="text-imenso-blue font-bold text-lg">1+</span>
+            <span className="text-imenso-blue font-bold text-lg">2+</span>
             <span className="text-imenso-gray">Years of Excellence</span>
           </div>
         </div>

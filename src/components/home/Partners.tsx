@@ -13,6 +13,11 @@ const Partners = () => {
       logo: "https://media.licdn.com/dms/image/v2/C4E0BAQEelCahbBvmcg/company-logo_200_200/company-logo_200_200/0/1630655190500/nawabus_logo?e=1749081600&v=beta&t=0DLhhTMMgxkcmS9HOQrtvWEJEIPMEiH_HtA31EU983U"
 
     },
+    {
+      name:"Property Assistent",
+      logo: "https://media.licdn.com/dms/image/v2/C4D0BAQGOvzgjgXwKkA/company-logo_200_200/company-logo_200_200/0/1668971278108?e=1749081600&v=beta&t=3ewktvZS33lA6NwcFTbq3ajJd2x51n4TVnCsavngMHo"
+
+    },
   
   ];
 

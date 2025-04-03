@@ -4,8 +4,8 @@ import Image from "next/image";
 const Partners = () => {
   const partners = [
     {
-      name: "ADIB",
-      logo: "https://ext.same-assets.com/1001059003/2953027801.png",
+      name: "EJC Technology",
+      logo: "https://media.licdn.com/dms/image/v2/C4E0BAQGuu-3j2Z85ZA/company-logo_200_200/company-logo_200_200/0/1632396285661/ejctechnology_logo?e=1749081600&v=beta&t=iUzRMZwcwJyDpQ-FO3JSn62ZeT1DdpWWoOQ2sCmEztE",
     },
   
   ];

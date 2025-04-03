@@ -7,6 +7,12 @@ const Partners = () => {
       name: "EJC Technology",
       logo: "https://media.licdn.com/dms/image/v2/C4E0BAQGuu-3j2Z85ZA/company-logo_200_200/company-logo_200_200/0/1632396285661/ejctechnology_logo?e=1749081600&v=beta&t=iUzRMZwcwJyDpQ-FO3JSn62ZeT1DdpWWoOQ2sCmEztE",
     },
+
+    {
+      name:"Nawabus",
+      logo: "https://media.licdn.com/dms/image/v2/C4E0BAQEelCahbBvmcg/company-logo_200_200/company-logo_200_200/0/1630655190500/nawabus_logo?e=1749081600&v=beta&t=0DLhhTMMgxkcmS9HOQrtvWEJEIPMEiH_HtA31EU983U"
+
+    },
   
   ];
 

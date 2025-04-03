@@ -19,12 +19,7 @@ const CTA = () => {
           >
             ..discuss a project
           </Link>
-          <Link
-            href="/contact"
-            className="border border-imenso-blue rounded-full px-6 py-2 text-imenso-blue hover:bg-imenso-blue hover:text-white transition-colors"
-          >
-            ..hire a dedicated resource
-          </Link>
+       
           <Link
             href="/career"
             className="border border-imenso-blue rounded-full px-6 py-2 text-imenso-blue hover:bg-imenso-blue hover:text-white transition-colors"

@@ -26,10 +26,6 @@ const Header = () => {
         {
           items: [
             { name: "Web Development", href: "/services/web-development" },
-            { name: "Cloud and DevOps", href: "/services/cloud-and-devops" },
-            { name: "Data Analytics", href: "/services/data-visualization-consulting-company" },
-            { name: "Software Testing", href: "/services/software-testing-company" },
-            { name: "UI/UX Design", href: "/services/ux-ui-design" },
             { name: "Mobile App Development", href: "/services/mobile-apps" },
           ],
         },
@@ -45,23 +41,7 @@ const Header = () => {
           title: "Backend",
           items: [
             { name: "Nodejs", href: "/technologies/node-js-development-company" },
-            { name: "PHP", href: "/technologies/php-application-development" },
-          ],
-        },
-        {
-          title: "Frontend",
-          items: [
-            { name: "Reactjs", href: "/technologies/react-js-development-company" },
-            { name: "Angular", href: "/technologies/angular-js-development-company" },
-            { name: "Vuejs", href: "/technologies/vue-js-development-company" },
-          ],
-        },
-        {
-          title: "Mobile Apps",
-          items: [
-            { name: "React Native", href: "/technologies/react-native-development-company" },
-            { name: "Android", href: "/technologies/android-development-company" },
-            { name: "iOS", href: "/technologies/ios-development-company" },
+            
           ],
         },
       ],

@@ -13,7 +13,6 @@ const Projects = () => {
         "Event venue listings",
         "Feedback radio integration",
       ],
-      link: "/work/social-media-platform-for-artists-and-music-lovers/",
     },
     {
       title: "A comprehensive Power BI dashboard for shipping industry insights",
@@ -24,7 +23,6 @@ const Projects = () => {
         "Synchronizing slicers",
         "Scheduled data refreshes",
       ],
-      link: "/work/a-comprehensive-power-bi-dashboard-for-shipping-industry-insights/",
     },
     {
       title: "Send bulk SMS to recover payment from patients",
@@ -35,7 +33,6 @@ const Projects = () => {
         "Custom URL shortener",
         "Pay with Credit card, Amazon Pay and Apple Pay",
       ],
-      link: "/work/send-bulk-sms-to-recover-payment-from-patients/",
     },
   ];
 

@@ -3,17 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const projectCategories = [
-  { name: "All", href: "/work/" },
-  { name: "Product Engineering", href: "/work-service/product-engineering/" },
-  { name: "Data Analytics", href: "/work-service/data-analytics/" },
-  { name: "Web Development", href: "/work-service/web-development/" },
-  { name: "SaaS Applications", href: "/work-service/saas-applications/" },
-  { name: "Software Modernization", href: "/work-service/software-modernization/" },
-  { name: "UX/UI Design", href: "/work-service/ux-ui-design/" },
-  { name: "Mobile Apps", href: "/work-service/mobile-apps/" },
-];
-
 const projects = [
   {
     title: "Business intelligence dashboard for legal industry",
@@ -101,23 +90,6 @@ export default function Work() {
             </h1>
           </div>
 
-          {/* Filter categories */}
-          <div className="flex flex-wrap justify-center gap-3 mb-12">
-            {projectCategories.map((category, index) => (
-              <Link
-                key={index}
-                href={category.href}
-                className={`px-4 py-2 rounded-full text-sm ${
-                  index === 0
-                    ? "bg-imenso-blue text-white"
-                    : "bg-white text-imenso-darkGray hover:bg-imenso-lightGray"
-                }`}
-              >
-                {category.name}
-              </Link>
-            ))}
-          </div>
-
           {/* Projects grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, index) => (
@@ -140,7 +112,6 @@ export default function Work() {
                       <li key={idx} className="text-sm text-imenso-gray">• {feature}</li>
                     ))}
                   </ul>
-                 
                 </div>
               </div>
             ))}

@@ -3,33 +3,16 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ChevronDown, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [activeDropdown, setActiveDropdown] = useState("");
-
-  const toggleDropdown = (dropdown: string) => {
-    if (activeDropdown === dropdown) {
-      setActiveDropdown("");
-    } else {
-      setActiveDropdown(dropdown);
-    }
-  };
 
   const menuItems = [
     {
       title: "Services",
-      dropdown: true,
-      id: "services",
-      columns: [
-        {
-          items: [
-            { name: "Web Development", href: "/services/web-development" },
-            { name: "Mobile App Development", href: "/services/mobile-apps" },
-          ],
-        },
-      ],
+      href: "/services",
+      dropdown: false,
     },
     {
       title: "Projects",
@@ -62,38 +45,9 @@ const Header = () => {
           <nav className="hidden lg:flex items-center space-x-8">
             {menuItems.map((item) => (
               <div key={item.title} className="relative group">
-                {item.dropdown ? (
-                  <button
-                    className="flex items-center text-imenso-blue hover:text-imenso-red transition-colors"
-                    onClick={() => toggleDropdown(item.id)}
-                  >
-                    <span>{item.title}</span>
-                    <ChevronDown className="ml-1 w-4 h-4" />
-                  </button>
-                ) : (
-                  <Link href={item.href || "#"} className="text-imenso-blue hover:text-imenso-red transition-colors">
-                    {item.title}
-                  </Link>
-                )}
-
-                {/* Dropdown for Services */}
-                {item.dropdown && item.id === "services" && activeDropdown === "services" && (
-                  <div className="absolute left-0 mt-2 w-[600px] bg-white shadow-lg rounded-md p-6 grid grid-cols-2 gap-6">
-                    {item.columns?.map((column, idx) => (
-                      <div key={idx} className="space-y-3">
-                        {column.items.map((subItem) => (
-                          <Link
-                            href={subItem.href}
-                            key={subItem.name}
-                            className="block text-imenso-darkGray hover:text-imenso-red transition-colors"
-                          >
-                            {subItem.name}
-                          </Link>
-                        ))}
-                      </div>
-                    ))}
-                  </div>
-                )}
+                <Link href={item.href || "#"} className="text-imenso-blue hover:text-imenso-red transition-colors">
+                  {item.title}
+                </Link>
               </div>
             ))}
           </nav>
@@ -116,38 +70,9 @@ const Header = () => {
           <div className="container-imenso space-y-4">
             {menuItems.map((item) => (
               <div key={item.title} className="border-t border-gray-100 pt-4">
-                {item.dropdown ? (
-                  <button
-                    className="flex items-center justify-between w-full text-imenso-blue font-medium"
-                    onClick={() => toggleDropdown(item.id)}
-                  >
-                    <span>{item.title}</span>
-                    <ChevronDown className={`w-5 h-5 transition-transform ${activeDropdown === item.id ? "rotate-180" : ""}`} />
-                  </button>
-                ) : (
-                  <Link href={item.href || "#"} className="block text-imenso-blue font-medium">
-                    {item.title}
-                  </Link>
-                )}
-
-                {/* Mobile dropdowns */}
-                {item.dropdown && activeDropdown === item.id && (
-                  <div className="mt-3 pl-4 space-y-4">
-                    {item.id === "services" && item.columns?.map((column, idx) => (
-                      <div key={idx} className="space-y-3">
-                        {column.items.map((subItem) => (
-                          <Link
-                            href={subItem.href}
-                            key={subItem.name}
-                            className="block text-imenso-darkGray hover:text-imenso-red transition-colors"
-                          >
-                            {subItem.name}
-                          </Link>
-                        ))}
-                      </div>
-                    ))}
-                  </div>
-                )}
+                <Link href={item.href || "#"} className="block text-imenso-blue font-medium">
+                  {item.title}
+                </Link>
               </div>
             ))}
 

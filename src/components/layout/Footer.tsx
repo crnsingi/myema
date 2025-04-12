@@ -10,8 +10,6 @@ const Footer = () => {
     { name: "About", href: "/about" },
     { name: "Projects", href: "/work" },
     { name: "Contact", href: "/contact" },
-    { name: "Career", href: "/career" },
-    { name: "Privacy Policy", href: "/privacy-policy" },
   ];
 
   const socialLinks = [
@@ -29,8 +27,8 @@ const Footer = () => {
           <div className="mb-4 md:mb-0">
             <Link href="/">
               <Image
-                src="https://ext.same-assets.com/1001059003/320825748.svg"
-                alt="Imenso Software"
+                src="https://media.licdn.com/dms/image/v2/D4D0BAQE0k6sKkM81bA/company-logo_100_100/B4DZYBBn4gG8AQ-/0/1743773927702/ema_ao_logo?e=1749686400&v=beta&t=_j74P_5mG5Y47M_ASW5myVSopdmO2YnZdQYxGynlJK0"
+                alt="Ema Software"
                 width={120}
                 height={40}
               />
@@ -69,7 +67,7 @@ const Footer = () => {
               ))}
             </div>
             <div className="text-sm text-imenso-gray">
-              © {new Date().getFullYear()} MyEma Software. All Rights Reserved.
+              © {new Date().getFullYear()} Ema Software. All Rights Reserved.
             </div>
           </div>
         </div>

@@ -25,7 +25,7 @@ const Services = () => {
         "Product Engineering",
         "Digital Transformation",
         "Mobile Apps",
-        "Process Automation",
+        "Web Development",
         "Application Modernization",
       ],
       link: "/services/web-development/",

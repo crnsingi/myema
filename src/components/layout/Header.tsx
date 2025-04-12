@@ -31,21 +31,6 @@ const Header = () => {
         },
       ],
     },
-    
-    {
-      title: "Technologies",
-      dropdown: true,
-      id: "technologies",
-      sections: [
-        {
-          title: "Backend",
-          items: [
-            { name: "Nodejs", href: "/technologies/node-js-development-company" },
-            
-          ],
-        },
-      ],
-    },
     {
       title: "Projects",
       href: "/work",
@@ -56,7 +41,6 @@ const Header = () => {
       href: "/about",
       dropdown: false,
     },
-
   ];
 
   return (
@@ -110,28 +94,6 @@ const Header = () => {
                     ))}
                   </div>
                 )}
-
-                {/* Dropdown for Dedicated Teams and Technologies */}
-                {item.dropdown && (item.id === "dedicated-teams" || item.id === "technologies") && activeDropdown === item.id && (
-                  <div className="absolute left-0 mt-2 w-[700px] bg-white shadow-lg rounded-md p-6">
-                    <div className="grid grid-cols-4 gap-6">
-                      {item.sections?.map((section) => (
-                        <div key={section.title} className="space-y-3">
-                          <h3 className="font-medium text-imenso-blue">{section.title}</h3>
-                          {section.items.map((subItem) => (
-                            <Link
-                              href={subItem.href}
-                              key={subItem.name}
-                              className="block text-imenso-darkGray hover:text-imenso-red transition-colors"
-                            >
-                              {subItem.name}
-                            </Link>
-                          ))}
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                )}
               </div>
             ))}
           </nav>
@@ -174,21 +136,6 @@ const Header = () => {
                     {item.id === "services" && item.columns?.map((column, idx) => (
                       <div key={idx} className="space-y-3">
                         {column.items.map((subItem) => (
-                          <Link
-                            href={subItem.href}
-                            key={subItem.name}
-                            className="block text-imenso-darkGray hover:text-imenso-red transition-colors"
-                          >
-                            {subItem.name}
-                          </Link>
-                        ))}
-                      </div>
-                    ))}
-
-                    {(item.id === "dedicated-teams" || item.id === "technologies") && item.sections?.map((section) => (
-                      <div key={section.title} className="space-y-2">
-                        <h3 className="font-medium text-imenso-blue mt-4">{section.title}</h3>
-                        {section.items.map((subItem) => (
                           <Link
                             href={subItem.href}
                             key={subItem.name}

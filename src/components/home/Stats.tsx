@@ -3,7 +3,7 @@ import React from "react";
 const Stats = () => {
   const stats = [
     {
-      number: "1+",
+      number: "2+",
       label: "Years of Experience",
     },
     {

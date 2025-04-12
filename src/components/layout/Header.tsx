@@ -50,7 +50,7 @@ const Header = () => {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             <Image
-              src="https://media.licdn.com/dms/image/v2/D4D3DAQFcHIINQBlOcg/image-scale_127_750/image-scale_127_750/0/1735391680802/myema_ao_cover?e=1744149600&v=beta&t=dAL2BUGwL-Y9HZx5Z9lLV6-QFos3TFgMg1RLOk15XHg"
+              src="https://media.licdn.com/dms/image/v2/D4D3DAQHTNmNR8IVlTw/image-scale_127_750/B4DZYpVr7_G8AM-/0/1744450273399/ema_ao_cover?e=1745056800&v=beta&t=mUgsk64yLzMuEHLNDzF7lvBucnrEHiq23CHuIbBbxMY"
               alt="MyEma"
               width={160}
               height={40}

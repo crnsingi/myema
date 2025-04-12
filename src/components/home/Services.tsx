@@ -60,7 +60,7 @@ const Services = () => {
 
   return (
     <section className="py-16 md:py-24 bg-white">
-      <div className="container-imenso">
+      <div className="container-imenso" >
         <div className="mb-16">
           <h3 className="text-sm uppercase text-imenso-gray font-medium tracking-wider mb-2">Capabilities</h3>
           <h2 className="text-2xl md:text-3xl text-imenso-blue font-bold max-w-4xl">

@@ -10,11 +10,6 @@ const Header = () => {
 
   const menuItems = [
     {
-      title: "Services",
-      href: "/services",
-      dropdown: false,
-    },
-    {
       title: "Projects",
       href: "/work",
       dropdown: false,

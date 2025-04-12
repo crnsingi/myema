@@ -10,7 +10,7 @@ const Testimonials = () => {
       avatar: "https://media.licdn.com/dms/image/v2/C4D03AQGsjYYJK8Zmaw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1653032026494?e=1749081600&v=beta&t=BbX5nPBJ0JYKGdC60v7KpTtaJcTsT-9BfFHnr7dNxzc",
     },
     {
-      quote: "Ema Software performed a difficult WordPress enhancement for me. They developed a new multi-site design with changes being pushed simultaneously across multiple marketplaces.",
+      quote: "Ema Software performed a difficult TypeScript enhancement for me. They developed a new multi-site design with changes being pushed simultaneously across multiple marketplaces.",
       author: "Marcelo Dauane",
       company: "Software Company",
       avatar: "https://media.licdn.com/dms/image/v2/D4D03AQFez8AWPTq5hA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724504632170?e=1749081600&v=beta&t=nrhLwfzR1dXXq4VQk2TYxeRbL1a3sASql3MQeREHJ-g",

@@ -9,7 +9,6 @@ const Footer = () => {
   const footerLinks = [
     { name: "About", href: "/about" },
     { name: "Projects", href: "/work" },
-    { name: "Contact", href: "/contact" },
   ];
 
   const socialLinks = [
@@ -32,8 +31,14 @@ const Footer = () => {
                 height={40}
               />
             </Link>
-            <div className="mt-2 flex items-center">
+            <div className="mt-2">
               <span className="text-imenso-blue text-sm">THINK BIG</span>
+              <div className="text-imenso-gray text-sm mt-2">
+                <span><p>Luanda,</p></span>
+                <p>Angola</p>
+                <p>Unit #3001,</p>
+                <p className="mt-2">+244 920 000 000</p>
+              </div>
             </div>
           </div>
           <div className="flex space-x-4">

@@ -21,7 +21,7 @@ const Hero = () => {
             Tech Consulting Agency
           </h1>
           <p className="text-lg md:text-xl text-imenso-gray mb-8">
-            From startups to big corporates, MyEma offers everything that needs to build world-class applications.
+            From startups to big corporates, Ema offers everything that needs to build world-class applications.
           </p>
          
         </div>

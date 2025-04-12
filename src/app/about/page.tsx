@@ -5,14 +5,14 @@ import React from "react";
 export default function About() {
   const stats = [
     {
-      number: "1+",
+      number: "2+",
       label: "Years of Experience",
       description: "In these years we build solid foundation in various areas of information technology that helps us to deliver exceptional results."
     },
     {
       number: "120+",
       label: "Team Members",
-      image: "https://ext.same-assets.com/1001059003/112711729.png"
+      image: "https://media.licdn.com/dms/image/v2/D4D0BAQE0k6sKkM81bA/company-logo_100_100/B4DZYBBn4gG8AQ-/0/1743773927702/ema_ao_logo?e=1749686400&v=beta&t=_j74P_5mG5Y47M_ASW5myVSopdmO2YnZdQYxGynlJK0"
     },
     {
       number: "95%",
@@ -71,12 +71,12 @@ export default function About() {
 
         <div className="container-imenso relative z-10">
           <div className="text-center">
-            <span className="text-imenso-red font-medium">#MyEma</span>
+            <span className="text-imenso-red font-medium">#Ema</span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-imenso-blue mt-4 mb-6">
-              MyEma is all about people
+              Ema is all about people
             </h1>
             <p className="text-lg md:text-xl text-imenso-gray max-w-3xl mx-auto">
-              It's not numbers or products or services; its our people who defines our success.
+              It's not numbers or products or services, its our people who defines our success.
             </p>
 
             <div className="mt-8 flex items-center justify-center">
@@ -153,7 +153,7 @@ export default function About() {
         <div className="container-imenso">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-imenso-blue mb-8">
-              MyEma provides spectrum of high quality IT services
+              Ema provides spectrum of high quality IT services
             </h2>
             <p className="text-lg text-imenso-gray max-w-3xl mx-auto">
               by collaborating with businesses across the globe as their tech partner.

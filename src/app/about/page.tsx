@@ -10,7 +10,7 @@ export default function About() {
       description: "In these years we build solid foundation in various areas of information technology that helps us to deliver exceptional results."
     },
     {
-      number: "120+",
+      number: "10+",
       label: "Team Members",
       image: "https://media.licdn.com/dms/image/v2/D4D0BAQE0k6sKkM81bA/company-logo_100_100/B4DZYBBn4gG8AQ-/0/1743773927702/ema_ao_logo?e=1749686400&v=beta&t=_j74P_5mG5Y47M_ASW5myVSopdmO2YnZdQYxGynlJK0"
     },

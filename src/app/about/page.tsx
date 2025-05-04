@@ -2,8 +2,16 @@ import MainLayout from "@/components/layout/MainLayout";
 import Image from "next/image";
 import React from "react";
 
+// Define TypeScript interface for stats
+interface Stat {
+  number: string;
+  label: string;
+  description?: string;
+  image?: string; // Optional image property
+}
+
 export default function About() {
-  const stats = [
+  const stats: Stat[] = [
     {
       number: "2+",
       label: "Years of Experience",
@@ -59,13 +67,13 @@ export default function About() {
     <MainLayout>
       {/* Hero Section */}
       <section className="py-16 md:py-24 bg-imenso-lightGray relative overflow-hidden">
-        {/* Background diagonal lines */}
         <div className="absolute inset-0 z-0 opacity-10">
           <Image
             src="https://ext.same-assets.com/1001059003/4248696089.png"
             alt="Background pattern"
             fill
             className="object-cover"
+            unoptimized
           />
         </div>
 
@@ -83,10 +91,11 @@ export default function About() {
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 relative rounded-full overflow-hidden">
                   <Image
-                    src="https://media.licdn.com/dms/image/v2/D4D03AQFy7X_T8O5t4A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1708294694781?e=1749081600&v=beta&t=p7w_2iPxjw2gE-oG31WkaMMDZd0QOzn4btCfFiylgJs" 
+                    src="https://media.licdn.com/dms/image/v2/D4D03AQFy7X_T8O5t4A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1708294694781?e=1749081600&v=beta&t=p7w_2iPxjw2gE-oG31WkaMMDZd0QOzn4btCfFiylgJs"
                     alt="Cesar Nsingi"
                     fill
                     className="object-cover"
+                    unoptimized
                   />
                 </div>
                 <div className="text-left">
@@ -116,12 +125,15 @@ export default function About() {
 
             {/* Middle Box - Image */}
             <div className="rounded-lg overflow-hidden relative h-[300px]">
-              <Image
-                src={stats[1].image}
-                alt="Team Culture"
-                fill
-                className="object-cover"
-              />
+              {stats[1].image && (
+                <Image
+                  src={stats[1].image}
+                  alt="Team Culture"
+                  fill
+                  className="object-cover"
+                  unoptimized
+                />
+              )}
             </div>
 
             {/* Last Box - Stats */}

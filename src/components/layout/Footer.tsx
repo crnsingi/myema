@@ -36,8 +36,8 @@ const Footer = () => {
               <div className="text-imenso-gray text-sm mt-2">
                 <span><p>Luanda,</p></span>
                 <p>Angola</p>
-                <p>Unit #3001,</p>
-                <p className="mt-2">+244 920 000 000</p>
+                <p>Unit #3001, cesarnsingi@hotmail.com</p>
+                <p className="mt-2">+244 923 057 125</p>
               </div>
             </div>
           </div>

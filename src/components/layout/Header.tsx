@@ -28,7 +28,7 @@ const Header = () => {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             <Image
-              src="https://media.licdn.com/dms/image/v2/D4D3DAQHTNmNR8IVlTw/image-scale_191_1128/B4DZYpVr7_G8Ac-/0/1744450273404/ema_ao_cover?e=1747220400&v=beta&t=grzl9XFW4qCxicKdUbMx-zUM2YlwSTpC98XN_hYrBIQ"
+              src="https://media.licdn.com/dms/image/v2/D4D3DAQHTNmNR8IVlTw/image-scale_127_750/B4DZYpVr7_G8AM-/0/1744450273399/ema_ao_cover?e=1747828800&v=beta&t=faZZWr5rBmsTpJp73aPL2l1U0KFruFkGSk3hH4FDQd0"
               alt="MyEma"
               width={160}
               height={40}

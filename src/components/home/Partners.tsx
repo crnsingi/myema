@@ -5,7 +5,7 @@ const Partners = () => {
   const partners = [
     {
       name: "EJC Technology",
-      logo: "https://media.licdn.com/dms/image/v2/C4E03AQG03X1HtFh_Nw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1634930446446?e=1755734400&v=beta&t=1lPtarerC2XskY7kdRQyzGRM0gYGPyjlBvWpXlfDe7E",
+      logo: "https://media.licdn.com/dms/image/v2/C4E0BAQGuu-3j2Z85ZA/company-logo_200_200/company-logo_200_200/0/1632396285661/ejctechnology_logo?e=1755734400&v=beta&t=-ozw2lcC0Yi3grAD3yuo_g8RrE0wrAUXjubcI9BkB1M",
     },
 
     {

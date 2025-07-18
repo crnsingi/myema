@@ -5,22 +5,22 @@ const Partners = () => {
   const partners = [
     {
       name: "EJC Technology",
-      logo: "https://media.licdn.com/dms/image/v2/C4E0BAQGuu-3j2Z85ZA/company-logo_200_200/company-logo_200_200/0/1632396285661/ejctechnology_logo?e=1749081600&v=beta&t=iUzRMZwcwJyDpQ-FO3JSn62ZeT1DdpWWoOQ2sCmEztE",
+      logo: "https://media.licdn.com/dms/image/v2/C4E03AQG03X1HtFh_Nw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1634930446446?e=1755734400&v=beta&t=1lPtarerC2XskY7kdRQyzGRM0gYGPyjlBvWpXlfDe7E",
     },
 
     {
       name:"Nawabus",
-      logo: "https://media.licdn.com/dms/image/v2/C4E0BAQEelCahbBvmcg/company-logo_200_200/company-logo_200_200/0/1630655190500/nawabus_logo?e=1749081600&v=beta&t=0DLhhTMMgxkcmS9HOQrtvWEJEIPMEiH_HtA31EU983U"
+      logo: "https://media.licdn.com/dms/image/v2/C4E0BAQEelCahbBvmcg/company-logo_200_200/company-logo_200_200/0/1630655190500/nawabus_logo?e=1755734400&v=beta&t=6rPdZnoYIEP4xMl_Vl8U6VHwSeZ7ShRBoi3PVl6RahI"
 
     },
     {
       name:"Property Assistent",
-      logo: "https://media.licdn.com/dms/image/v2/C4D0BAQGOvzgjgXwKkA/company-logo_200_200/company-logo_200_200/0/1668971278108?e=1749081600&v=beta&t=3ewktvZS33lA6NwcFTbq3ajJd2x51n4TVnCsavngMHo"
+      logo: "https://media.licdn.com/dms/image/v2/C4D0BAQGOvzgjgXwKkA/company-logo_200_200/company-logo_200_200/0/1668971278108?e=1755734400&v=beta&t=zPTMe9I4MChp9f7GMejROOlafWbVAcr-RZ4xYVdSy6c"
 
     },
     {
       name:"DeltaCorp",
-      logo: "https://media.licdn.com/dms/image/v2/C4E0BAQHi9b0MtZPpiA/company-logo_200_200/company-logo_200_200/0/1642350969205?e=1749081600&v=beta&t=mh_cuyGS_WYvu_Kr7rql2-jDNYqXtpJOYkg4_0tpYhQ"
+      logo: "https://media.licdn.com/dms/image/v2/C5616AQEZCM0VhmvYFg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1641416134810?e=1755734400&v=beta&t=Bt82JTDR-IR5Ac5jWEXpPqlI156Gr9zMZuC0oz8xhvA"
 
     },
   

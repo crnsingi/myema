@@ -25,7 +25,7 @@ const Footer = () => {
           <div className="mb-4 md:mb-0">
             <Link href="/">
               <Image
-                src="https://media.licdn.com/dms/image/v2/D4D0BAQE0k6sKkM81bA/company-logo_100_100/B4DZYBBn4gG8AQ-/0/1743773927702/ema_ao_logo?e=1749686400&v=beta&t=_j74P_5mG5Y47M_ASW5myVSopdmO2YnZdQYxGynlJK0"
+                src="https://media.licdn.com/dms/image/v2/D4D0BAQE0k6sKkM81bA/company-logo_100_100/B4DZYBBn4gG8AQ-/0/1743773927702/ema_ao_logo?e=1755734400&v=beta&t=8w66sGrVMsEt6qlejaJl_KzCXC0Sy91Bk0OEd64xG4o"
                 alt="Ema Software"
                 width={120}
                 height={40}

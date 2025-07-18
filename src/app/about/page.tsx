@@ -91,7 +91,7 @@ export default function About() {
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 relative rounded-full overflow-hidden">
                   <Image
-                    src="https://media.licdn.com/dms/image/v2/D4D03AQFy7X_T8O5t4A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1708294694781?e=1749081600&v=beta&t=p7w_2iPxjw2gE-oG31WkaMMDZd0QOzn4btCfFiylgJs"
+                    src="https://media.licdn.com/dms/image/v2/D4D03AQH3GXGjyRSelg/profile-displayphoto-scale_200_200/B4DZgN25d8GsAY-/0/1752579153298?e=1755734400&v=beta&t=RfZdEv0VMn-Z27r0zPOEiRAL5WJd-_xP_5dV4bUks9E"
                     alt="Cesar Nsingi"
                     fill
                     className="object-cover"

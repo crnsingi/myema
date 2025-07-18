@@ -69,7 +69,7 @@ export default function About() {
       <section className="py-16 md:py-24 bg-imenso-lightGray relative overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-10">
           <Image
-            src="https://media.licdn.com/dms/image/v2/D4D0BAQE0k6sKkM81bA/company-logo_100_100/B4DZYBBn4gG8AQ-/0/1743773927702/ema_ao_logo?e=1755734400&v=beta&t=8w66sGrVMsEt6qlejaJl_KzCXC0Sy91Bk0OEd64xG4o"
+            src="https://ext.same-assets.com/1001059003/4248696089.png"
             alt="Background pattern"
             fill
             className="object-cover"

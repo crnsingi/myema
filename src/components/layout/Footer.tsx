@@ -32,7 +32,7 @@ const Footer = () => {
               />
             </Link>
             <div className="mt-2">
-              <span className="text-imenso-blue text-sm">THINK BIG</span>
+              <span className="text-imenso-blue text-sm">THINK BIG ALWAYS</span>
               <div className="text-imenso-gray text-sm mt-2">
                 <span><p>Luanda,</p></span>
                 <p>Angola</p>
